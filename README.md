@@ -1,82 +1,16 @@
 ```js
 import Desenvolvedor from "LucasBradacz";
 
-class LucasBradacz extends Desenvolvedor {
-  constructor() {
-    super();
-
-    this.nome = "Lucas Miron Bradacz";
-    this.cargo = "Desenvolvedor Full Stack";
-    this.local = "Brasil 🇧🇷";
-
-    this.contato = {
-      email: "lucas1bradacz@gmail.com",
-      linkedin: "linkedin.com/in/lucas-miron-bradacz-19403024b",
-      github: "github.com/LucasBradacz"
-    };
-
-    this.skills = {
-      linguagens: [
-        "Java",
-        "JavaScript",
-        "C#",
-        "Python",
-        "PHP",
-        "Ruby"
-      ],
-
-      frontend: [
-        "HTML5",
-        "CSS3",
-        "React",
-        "Bootstrap"
-      ],
-
-      backend: [
-        "Spring Boot",
-        ".NET",
-        "ASP.NET"
-      ],
-
-      bancoDeDados: [
-        "PostgreSQL",
-        "MySQL"
-      ],
-
-      ferramentas: [
-        "Git",
-        "GitHub",
-        "Docker",
-        "Rider",
-        "RubyMine",
-        "WebStorm",
-        "VS Code"
-      ]
-    };
-
-    this.estudando = [
-      "Spring Security",
-      "Docker",
-      "Clean Architecture",
-      "Microsserviços"
-    ];
-
-    this.interesses = [
-      "Back-end",
-      "APIs REST",
-      "Arquitetura de Software"
-    ];
-
-    this.hobbies = [
-      "🎲 RPG",
-      "☕ Café"
-    ];
-  }
-
-  dizerOi() {
-    return "Obrigado por visitar meu perfil! 😄";
-  }
+class SobreMim extends Desenvolvedor {
+  nome = "Lucas Miron Bradacz";
+  area = "Full_Stack";
+// trabalho = "";
+  local = "Brasil 🇧🇷";
 }
 
-export default new LucasBradacz();
+class Skills extends Desenvolvedor {
+  linguagens = ["Java", "JavaScript", "C#", "Python", "PHP", "Ruby", "HTML", "CSS", "SQL"];
+  bibliotecas = ["React", "Bootstrap", "jQuery"];
+  frameworks = ["Spring Boot", ".NET", "ASP.NET"];
+}
 ```
