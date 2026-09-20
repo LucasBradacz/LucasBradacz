@@ -5,7 +5,7 @@ class SobreMim extends Desenvolvedor {
   nome = "Lucas Miron Bradacz";
   area = "Full_Stack";
 // trabalho = "";
-  local = "Brasil 🇧🇷";
+  local = "Brasil";
 }
 
 class Skills extends Desenvolvedor {
